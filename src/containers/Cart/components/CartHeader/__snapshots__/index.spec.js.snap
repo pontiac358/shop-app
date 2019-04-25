@@ -1,0 +1,294 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductsList component render correctly CartHeader container 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CartHeader
+    cart={
+      Object {
+        "count": 1,
+        "totalPrice": 100,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <ForwardRef(render)
+        replace={false}
+        to="/cart"
+      >
+        кол: 
+        <strong>
+          1
+        </strong>
+        <br />
+        сумма: 
+        <strong>
+          100
+           р
+        </strong>
+      </ForwardRef(render)>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          "кол: ",
+          <strong>
+            1
+          </strong>,
+          <br />,
+          "сумма: ",
+          <strong>
+            100
+             р
+          </strong>,
+        ],
+        "replace": false,
+        "to": "/cart",
+      },
+      "ref": null,
+      "rendered": Array [
+        "кол: ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": 1,
+          },
+          "ref": null,
+          "rendered": 1,
+          "type": "strong",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        "сумма: ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              100,
+              " р",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            100,
+            " р",
+          ],
+          "type": "strong",
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "__emotion_base": [Function],
+        "__emotion_forwardProp": undefined,
+        "__emotion_real": [Circular],
+        "__emotion_styles": Array [
+          "
+    color: #fff;
+    display: inline-block;
+    text-align: right;
+    padding: 2px;
+    text-decoration: underline;
+",
+        ],
+        "defaultProps": Object {
+          "replace": false,
+        },
+        "displayName": "CartLink",
+        "render": [Function],
+        "withComponent": [Function],
+      },
+    },
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "__emotion_base": "div",
+      "__emotion_forwardProp": undefined,
+      "__emotion_real": [Circular],
+      "__emotion_styles": Array [
+        "
+    color: #fff;
+",
+      ],
+      "defaultProps": undefined,
+      "displayName": "Styled(div)",
+      "render": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <ForwardRef(render)
+          replace={false}
+          to="/cart"
+        >
+          кол: 
+          <strong>
+            1
+          </strong>
+          <br />
+          сумма: 
+          <strong>
+            100
+             р
+          </strong>
+        </ForwardRef(render)>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            "кол: ",
+            <strong>
+              1
+            </strong>,
+            <br />,
+            "сумма: ",
+            <strong>
+              100
+               р
+            </strong>,
+          ],
+          "replace": false,
+          "to": "/cart",
+        },
+        "ref": null,
+        "rendered": Array [
+          "кол: ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": 1,
+            },
+            "ref": null,
+            "rendered": 1,
+            "type": "strong",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          "сумма: ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                100,
+                " р",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              100,
+              " р",
+            ],
+            "type": "strong",
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "__emotion_base": [Function],
+          "__emotion_forwardProp": undefined,
+          "__emotion_real": [Circular],
+          "__emotion_styles": Array [
+            "
+    color: #fff;
+    display: inline-block;
+    text-align: right;
+    padding: 2px;
+    text-decoration: underline;
+",
+          ],
+          "defaultProps": Object {
+            "replace": false,
+          },
+          "displayName": "CartLink",
+          "render": [Function],
+          "withComponent": [Function],
+        },
+      },
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "__emotion_base": "div",
+        "__emotion_forwardProp": undefined,
+        "__emotion_real": [Circular],
+        "__emotion_styles": Array [
+          "
+    color: #fff;
+",
+        ],
+        "defaultProps": undefined,
+        "displayName": "Styled(div)",
+        "render": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

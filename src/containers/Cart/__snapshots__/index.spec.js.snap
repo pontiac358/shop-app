@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart container render correctly Cart container 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Cart
+    cart={Object {}}
+    products={Array []}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <ForwardRef(render)>
+          Корзина пуста
+        </ForwardRef(render)>,
+        <ForwardRef(render)>
+          <Btn
+            title="На главную"
+            to="/"
+          />
+        </ForwardRef(render)>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Корзина пуста",
+        },
+        "ref": null,
+        "rendered": "Корзина пуста",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "__emotion_base": "h2",
+          "__emotion_forwardProp": undefined,
+          "__emotion_real": [Circular],
+          "__emotion_styles": Array [
+            "
+    text-align: center;
+    font-size: 32px;
+    padding: 20px 0;
+",
+          ],
+          "defaultProps": undefined,
+          "displayName": "EmptyCartHead",
+          "render": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <Btn
+            title="На главную"
+            to="/"
+          />,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "title": "На главную",
+            "to": "/",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "__emotion_base": "div",
+          "__emotion_forwardProp": undefined,
+          "__emotion_real": [Circular],
+          "__emotion_styles": Array [
+            "
+    text-align:center;
+",
+          ],
+          "defaultProps": undefined,
+          "displayName": "Styled(div)",
+          "render": [Function],
+          "withComponent": [Function],
+        },
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "__emotion_base": "div",
+      "__emotion_forwardProp": undefined,
+      "__emotion_real": [Circular],
+      "__emotion_styles": Array [
+        "
+    max-width:800px;
+    padding: 0 10px;
+    margin:auto;
+",
+      ],
+      "defaultProps": undefined,
+      "displayName": "Styled(div)",
+      "render": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <ForwardRef(render)>
+            Корзина пуста
+          </ForwardRef(render)>,
+          <ForwardRef(render)>
+            <Btn
+              title="На главную"
+              to="/"
+            />
+          </ForwardRef(render)>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Корзина пуста",
+          },
+          "ref": null,
+          "rendered": "Корзина пуста",
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "__emotion_base": "h2",
+            "__emotion_forwardProp": undefined,
+            "__emotion_real": [Circular],
+            "__emotion_styles": Array [
+              "
+    text-align: center;
+    font-size: 32px;
+    padding: 20px 0;
+",
+            ],
+            "defaultProps": undefined,
+            "displayName": "EmptyCartHead",
+            "render": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <Btn
+              title="На главную"
+              to="/"
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "title": "На главную",
+              "to": "/",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "__emotion_base": "div",
+            "__emotion_forwardProp": undefined,
+            "__emotion_real": [Circular],
+            "__emotion_styles": Array [
+              "
+    text-align:center;
+",
+            ],
+            "defaultProps": undefined,
+            "displayName": "Styled(div)",
+            "render": [Function],
+            "withComponent": [Function],
+          },
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "__emotion_base": "div",
+        "__emotion_forwardProp": undefined,
+        "__emotion_real": [Circular],
+        "__emotion_styles": Array [
+          "
+    max-width:800px;
+    padding: 0 10px;
+    margin:auto;
+",
+        ],
+        "defaultProps": undefined,
+        "displayName": "Styled(div)",
+        "render": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

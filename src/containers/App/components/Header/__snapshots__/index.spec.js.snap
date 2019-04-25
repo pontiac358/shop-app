@@ -1,0 +1,379 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductsList component render correctly Header container 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <ForwardRef(render)>
+        <ForwardRef(render)
+          replace={false}
+          to="/"
+        >
+           LOGO 
+        </ForwardRef(render)>
+        <Menu />
+        <ForwardRef(render)>
+          <CartHeader />
+        </ForwardRef(render)>
+      </ForwardRef(render)>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <ForwardRef(render)
+            replace={false}
+            to="/"
+          >
+             LOGO 
+          </ForwardRef(render)>,
+          <Menu />,
+          <ForwardRef(render)>
+            <CartHeader />
+          </ForwardRef(render)>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": " LOGO ",
+            "replace": false,
+            "to": "/",
+          },
+          "ref": null,
+          "rendered": " LOGO ",
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "__emotion_base": [Function],
+            "__emotion_forwardProp": undefined,
+            "__emotion_real": [Circular],
+            "__emotion_styles": Array [
+              "
+  padding: 10px;
+  width:120px;
+  color: #fff;
+  margin-right:auto;
+",
+            ],
+            "defaultProps": Object {
+              "replace": false,
+            },
+            "displayName": "Styled(Link)",
+            "render": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "menu": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <CartHeader />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "cart": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "__emotion_base": "div",
+            "__emotion_forwardProp": undefined,
+            "__emotion_real": [Circular],
+            "__emotion_styles": Array [
+              "
+  padding: 10px;
+  width:120px;
+  color: #fff;
+  margin-left:auto;
+",
+            ],
+            "defaultProps": undefined,
+            "displayName": "Styled(div)",
+            "render": [Function],
+            "withComponent": [Function],
+          },
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "__emotion_base": "div",
+        "__emotion_forwardProp": undefined,
+        "__emotion_real": [Circular],
+        "__emotion_styles": Array [
+          "
+    width: 1100px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+",
+        ],
+        "defaultProps": undefined,
+        "displayName": "Styled(div)",
+        "render": [Function],
+        "withComponent": [Function],
+      },
+    },
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "__emotion_base": "div",
+      "__emotion_forwardProp": undefined,
+      "__emotion_real": [Circular],
+      "__emotion_styles": Array [
+        "
+    background-color: #000;
+    height: 50px;
+    width:100%;
+    color: #fff;
+    margin-bottom:30px
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    margin-bottom:20px;
+    position:relative;
+",
+      ],
+      "defaultProps": undefined,
+      "displayName": "Styled(div)",
+      "render": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <ForwardRef(render)>
+          <ForwardRef(render)
+            replace={false}
+            to="/"
+          >
+             LOGO 
+          </ForwardRef(render)>
+          <Menu />
+          <ForwardRef(render)>
+            <CartHeader />
+          </ForwardRef(render)>
+        </ForwardRef(render)>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <ForwardRef(render)
+              replace={false}
+              to="/"
+            >
+               LOGO 
+            </ForwardRef(render)>,
+            <Menu />,
+            <ForwardRef(render)>
+              <CartHeader />
+            </ForwardRef(render)>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": " LOGO ",
+              "replace": false,
+              "to": "/",
+            },
+            "ref": null,
+            "rendered": " LOGO ",
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": [Function],
+              "__emotion_forwardProp": undefined,
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                "
+  padding: 10px;
+  width:120px;
+  color: #fff;
+  margin-right:auto;
+",
+              ],
+              "defaultProps": Object {
+                "replace": false,
+              },
+              "displayName": "Styled(Link)",
+              "render": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "menu": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <CartHeader />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "cart": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": "div",
+              "__emotion_forwardProp": undefined,
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                "
+  padding: 10px;
+  width:120px;
+  color: #fff;
+  margin-left:auto;
+",
+              ],
+              "defaultProps": undefined,
+              "displayName": "Styled(div)",
+              "render": [Function],
+              "withComponent": [Function],
+            },
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "__emotion_base": "div",
+          "__emotion_forwardProp": undefined,
+          "__emotion_real": [Circular],
+          "__emotion_styles": Array [
+            "
+    width: 1100px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+",
+          ],
+          "defaultProps": undefined,
+          "displayName": "Styled(div)",
+          "render": [Function],
+          "withComponent": [Function],
+        },
+      },
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "__emotion_base": "div",
+        "__emotion_forwardProp": undefined,
+        "__emotion_real": [Circular],
+        "__emotion_styles": Array [
+          "
+    background-color: #000;
+    height: 50px;
+    width:100%;
+    color: #fff;
+    margin-bottom:30px
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    margin-bottom:20px;
+    position:relative;
+",
+        ],
+        "defaultProps": undefined,
+        "displayName": "Styled(div)",
+        "render": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

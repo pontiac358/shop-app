@@ -1,0 +1,257 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductsList component render correctly ProductList container 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ProductList
+    cart={Object {}}
+    products={
+      Array [
+        Object {
+          "id": 1,
+          "price": 200,
+          "title": "test1",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <ForwardRef(render)>
+        <ProductItem
+          addToCart={[Function]}
+          product={
+            Object {
+              "id": 1,
+              "price": 200,
+              "title": "test1",
+            }
+          }
+        />
+      </ForwardRef(render)>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <ProductItem
+            addToCart={[Function]}
+            product={
+              Object {
+                "id": 1,
+                "price": 200,
+                "title": "test1",
+              }
+            }
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "function",
+          "props": Object {
+            "addToCart": [Function],
+            "hasInCart": undefined,
+            "product": Object {
+              "id": 1,
+              "price": 200,
+              "title": "test1",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "__emotion_base": "div",
+        "__emotion_forwardProp": undefined,
+        "__emotion_real": [Circular],
+        "__emotion_styles": Array [
+          "
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: calc(100% + 45px);
+    @media only screen and (max-width: 480px) {
+        width: 100%;
+    }
+  
+",
+        ],
+        "defaultProps": undefined,
+        "displayName": "Styled(div)",
+        "render": [Function],
+        "withComponent": [Function],
+      },
+    },
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "__emotion_base": "div",
+      "__emotion_forwardProp": undefined,
+      "__emotion_real": [Circular],
+      "__emotion_styles": Array [
+        "
+    max-width: 1100px;
+    margin:auto;
+    overflow:hidden
+  
+",
+      ],
+      "defaultProps": undefined,
+      "displayName": "Styled(div)",
+      "render": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <ForwardRef(render)>
+          <ProductItem
+            addToCart={[Function]}
+            product={
+              Object {
+                "id": 1,
+                "price": 200,
+                "title": "test1",
+              }
+            }
+          />
+        </ForwardRef(render)>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <ProductItem
+              addToCart={[Function]}
+              product={
+                Object {
+                  "id": 1,
+                  "price": 200,
+                  "title": "test1",
+                }
+              }
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "function",
+            "props": Object {
+              "addToCart": [Function],
+              "hasInCart": undefined,
+              "product": Object {
+                "id": 1,
+                "price": 200,
+                "title": "test1",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "__emotion_base": "div",
+          "__emotion_forwardProp": undefined,
+          "__emotion_real": [Circular],
+          "__emotion_styles": Array [
+            "
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: calc(100% + 45px);
+    @media only screen and (max-width: 480px) {
+        width: 100%;
+    }
+  
+",
+          ],
+          "defaultProps": undefined,
+          "displayName": "Styled(div)",
+          "render": [Function],
+          "withComponent": [Function],
+        },
+      },
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "__emotion_base": "div",
+        "__emotion_forwardProp": undefined,
+        "__emotion_real": [Circular],
+        "__emotion_styles": Array [
+          "
+    max-width: 1100px;
+    margin:auto;
+    overflow:hidden
+  
+",
+        ],
+        "defaultProps": undefined,
+        "displayName": "Styled(div)",
+        "render": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

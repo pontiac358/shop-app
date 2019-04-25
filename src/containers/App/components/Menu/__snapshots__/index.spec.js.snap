@@ -1,0 +1,375 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu component render correctly ProductList container 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Menu
+    menu={
+      Object {
+        "data": Array [
+          Object {
+            "id": 1,
+            "title": "test",
+            "url": "test",
+          },
+        ],
+        "isLoading": false,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <ForwardRef(render)
+          onClick={[Function]}
+        >
+          Menu
+        </ForwardRef(render)>,
+        <ForwardRef(render)
+          isOpen={false}
+        >
+          <ForwardRef(render)
+            replace={false}
+            to="/menu/1/test"
+          >
+             
+            test
+             
+          </ForwardRef(render)>
+        </ForwardRef(render)>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Menu",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Menu",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "__emotion_base": "div",
+          "__emotion_forwardProp": undefined,
+          "__emotion_real": [Circular],
+          "__emotion_styles": Array [
+            "
+    display:none;
+    @media only screen and (max-width: 480px) {
+        display:block;   
+    }
+",
+          ],
+          "defaultProps": undefined,
+          "displayName": "Styled(div)",
+          "render": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <ForwardRef(render)
+              replace={false}
+              to="/menu/1/test"
+            >
+               
+              test
+               
+            </ForwardRef(render)>,
+          ],
+          "isOpen": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                " ",
+                "test",
+                " ",
+              ],
+              "replace": false,
+              "to": "/menu/1/test",
+            },
+            "ref": null,
+            "rendered": Array [
+              " ",
+              "test",
+              " ",
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": [Function],
+              "__emotion_forwardProp": undefined,
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                "
+  padding: 10px;
+  color: #fff;
+  @media only screen and (max-width: 480px) {
+        display:block;   
+    }
+",
+              ],
+              "defaultProps": Object {
+                "replace": false,
+              },
+              "displayName": "MenuLink",
+              "render": [Function],
+              "withComponent": [Function],
+            },
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "__emotion_base": "div",
+          "__emotion_forwardProp": undefined,
+          "__emotion_real": [Circular],
+          "__emotion_styles": Array [
+            "
+    @media only screen and (max-width: 480px) {
+        position: absolute;
+        top: 48px;
+        left:0;
+        background:#000;
+        width: 100%;
+        display:",
+            [Function],
+            ";
+        padding: 10px;
+        text-align:center;   
+    }
+",
+          ],
+          "defaultProps": undefined,
+          "displayName": "Styled(div)",
+          "render": [Function],
+          "withComponent": [Function],
+        },
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "__emotion_base": "div",
+      "__emotion_forwardProp": undefined,
+      "__emotion_real": [Circular],
+      "__emotion_styles": Array [
+        "",
+      ],
+      "defaultProps": undefined,
+      "displayName": "Styled(div)",
+      "render": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <ForwardRef(render)
+            onClick={[Function]}
+          >
+            Menu
+          </ForwardRef(render)>,
+          <ForwardRef(render)
+            isOpen={false}
+          >
+            <ForwardRef(render)
+              replace={false}
+              to="/menu/1/test"
+            >
+               
+              test
+               
+            </ForwardRef(render)>
+          </ForwardRef(render)>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Menu",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Menu",
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "__emotion_base": "div",
+            "__emotion_forwardProp": undefined,
+            "__emotion_real": [Circular],
+            "__emotion_styles": Array [
+              "
+    display:none;
+    @media only screen and (max-width: 480px) {
+        display:block;   
+    }
+",
+            ],
+            "defaultProps": undefined,
+            "displayName": "Styled(div)",
+            "render": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <ForwardRef(render)
+                replace={false}
+                to="/menu/1/test"
+              >
+                 
+                test
+                 
+              </ForwardRef(render)>,
+            ],
+            "isOpen": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  " ",
+                  "test",
+                  " ",
+                ],
+                "replace": false,
+                "to": "/menu/1/test",
+              },
+              "ref": null,
+              "rendered": Array [
+                " ",
+                "test",
+                " ",
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "__emotion_base": [Function],
+                "__emotion_forwardProp": undefined,
+                "__emotion_real": [Circular],
+                "__emotion_styles": Array [
+                  "
+  padding: 10px;
+  color: #fff;
+  @media only screen and (max-width: 480px) {
+        display:block;   
+    }
+",
+                ],
+                "defaultProps": Object {
+                  "replace": false,
+                },
+                "displayName": "MenuLink",
+                "render": [Function],
+                "withComponent": [Function],
+              },
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "__emotion_base": "div",
+            "__emotion_forwardProp": undefined,
+            "__emotion_real": [Circular],
+            "__emotion_styles": Array [
+              "
+    @media only screen and (max-width: 480px) {
+        position: absolute;
+        top: 48px;
+        left:0;
+        background:#000;
+        width: 100%;
+        display:",
+              [Function],
+              ";
+        padding: 10px;
+        text-align:center;   
+    }
+",
+            ],
+            "defaultProps": undefined,
+            "displayName": "Styled(div)",
+            "render": [Function],
+            "withComponent": [Function],
+          },
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "__emotion_base": "div",
+        "__emotion_forwardProp": undefined,
+        "__emotion_real": [Circular],
+        "__emotion_styles": Array [
+          "",
+        ],
+        "defaultProps": undefined,
+        "displayName": "Styled(div)",
+        "render": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

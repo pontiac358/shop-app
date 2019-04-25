@@ -1,0 +1,66 @@
+[
+    {
+        "title":"Пицца Том Ям",
+        "url":"pizza-tom-yan",
+        "price": 200,
+        "category": 1,
+        "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/c89bd704-6b27-4b4f-9d70-4edf3521d4ac.jpg",
+        "id": 1
+    },
+    {
+        "title": "Пицца из половинок",
+        "url": "pizza-iz-polovinok",
+        "price": 250,
+        "category": 1,
+        "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/2c0c0c1e-0f7d-4cc9-8eca-71bee5bd2e1f.jpg",
+        "id": 2
+    },
+    {
+        "title": "Пепперони",
+        "url": "peperoni",
+        "price": 310,
+        "category": 1,
+        "img":"https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/8e66cfee-bd1c-493d-aa25-0b23639901ec.jpg",
+        "id": 3
+    },
+    {
+        "title": "Четыре сыра",
+        "url": "chetiri-sira",
+        "price": 510,
+        "category": 1,
+        "img":"https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/7d770266-c779-4e9d-b2bf-aa741de13bed.jpg",
+        "id": 7
+    },
+    {
+        "title":"Кока-кола Зеро",
+        "url":"koka-kola-zero",
+        "price": 20,
+        "category": 2,
+        "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/Drinks/ru-RU/db79adc8-7f6c-4640-90b9-60528e8f6b57.jpg",
+        "id": 4
+    },
+    {
+        "title": "Спрайт",
+        "url": "sprite",
+        "price": 25,
+        "category": 2,
+        "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/Drinks/ru-RU/1612c49a-2a62-48e2-9a49-82ad9815d786.jpg",
+        "id": 5
+    },
+    {
+        "title": "Фанта",
+        "url": "fanta",
+        "price": 31,
+        "category": 2,
+        "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/Drinks/ru-RU/5bbbaa7f-d0f4-46d3-80a4-a6e442cc9660.jpg",
+        "id": 6
+    },
+    {
+        "title": "Сок Рич вишня",
+        "url": "",
+        "price": 40,
+        "category": 2,
+        "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/Drinks/ru-RU/1edc6ac8-11a8-46b1-8fc3-1b5fb1fd907e.jpg",
+        "id": 8
+    }
+]
