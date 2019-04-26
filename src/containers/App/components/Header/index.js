@@ -47,15 +47,11 @@ const Header = ({ menu, cart }) => {
     return (
         <Container>
             <CenterWrap>
-                {
-                    <Logo to={'/'}> LOGO </Logo>
-                }
+                <Logo to={'/'}> LOGO </Logo>
                 <Menu menu={ menu} />
-                {
-                    <CartWrap>
-                        <CartHeader cart={ cart }/>
-                    </CartWrap>
-                }
+                <CartWrap>
+                    <CartHeader cart={ cart }/>
+                </CartWrap>
             </CenterWrap>
         </Container>
     );
